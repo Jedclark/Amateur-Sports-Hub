@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bottom_nav_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/bottom_nav_title_home" />
+
+    <item
+        android:id="@+id/bottom_nav_teams"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/bottom_nav_title_teams" />
+
+    <item
+        android:id="@+id/bottom_nav_competitions"
+        android:icon="@drawable/ic_trophy_24"
+        android:title="@string/bottom_nav_title_competitions" />
+
+</menu>

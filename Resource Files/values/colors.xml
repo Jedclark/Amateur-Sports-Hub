@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- MAIN THEME COLOURS -->
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <!-- BUTTON STYLING -->
+    <color name="login_button_color">#00AA00</color>
+
+    <color name="colour_white">#00111111</color>
+
+</resources>

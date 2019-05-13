@@ -1,0 +1,195 @@
+<resources>
+
+    <!--STRINGS ARE LISTED IN ORDER OF APPEARANCE IN THEIR ACTIVITY -->
+
+    <string name="app_name">SportsStats</string>
+    <string name="search_hint">Search teams or leagues</string>
+
+    <!-- TOOLBAR HEADINGS -->
+    <string name="toolbar_title_home">Home</string>
+    <string name="toolbar_title_teams">Teams</string>
+    <string name="toolbar_title_competitions">Competitions</string>
+
+    <!-- BOTTOM NAVIGATION -->
+    <string name="bottom_nav_title_home">Home</string>
+    <string name="bottom_nav_title_teams">Teams</string>
+    <string name="bottom_nav_title_competitions">Competitions</string>
+
+    <!-- MAIN ACTIVITY -->
+    <string name="login_activity_title_text">Amateur Sports Hub</string>
+    <string name="login_activity_username_text">Username:</string>
+    <string name="login_activity_username_hint">Enter your username here</string>
+    <string name="login_activity_password_text">Password:</string>
+    <string name="login_activity_password_hint">Enter your password here</string>
+    <string name="login_activity_login_button_text">Login</string>
+    <string name="login_activity_register_button_text">Register</string>
+
+    <!-- REGISTER ACTIVITY -->
+    <string name="register_activity_username_text">Username:</string>
+    <string name="register_activity_username_hint">Enter your username here</string>
+    <string name="register_activity_first_name_text">First Name:</string>
+    <string name="register_activity_first_name_hint">Enter your name here</string>
+    <string name="register_activity_surname_text">Surname:</string>
+    <string name="register_activity_surname_hint">Enter your surname here</string>
+    <string name="register_activity_password_text">Password:</string>
+    <string name="register_activity_password_hint">Passwords must be 8 or more characters</string>
+    <string name="register_activity_password_confirm_text">Re-enter Password:</string>
+    <string name="register_activity_password_confirm_hint"></string>
+    <string name="register_activity_email_text">Email:</string>
+    <string name="register_activity_email_hint">Please enter a valid email address</string>
+    <string name="register_activity_button">Register</string>
+
+    <string name="register_activity_username_validation">Invalid username</string>
+    <string name="register_activity_password_match_validation">Passwords do not match</string>
+
+    <!-- TEAMS FRAGMENT -->
+    <string name="teams_fragment_create_team_text">Create A Team</string>
+    <string name="teams_fragment_search_hint">Search for a team</string>
+
+    <!-- CHOOSE SPORT ACTIVITY -->
+    <string name="choose_sport_activity_title">Choose A Sport</string>
+
+    <!-- CREATE TEAM DETAILS ACTIVITY -->
+    <string name="create_team_details_activity_title">Enter Your Team\'s Details</string>
+    <string name="create_teams_details_activity_name_text">Team Name:</string>
+    <string name="create_teams_details_activity_name_hint">Enter your team name here</string>
+    <string name="create_teams_details_activity_nick_text">Nickname:</string>
+    <string name="create_teams_details_activity_nick_hint">Enter your team\'s nickname here</string>
+    <string name="create_teams_details_activity_desc_text">Team Description:</string>
+    <string name="create_teams_details_activity_desc_hint">Describe your team</string>
+    <string name="create_teams_details_activity_year_text">Year Created:</string>
+    <string name="create_teams_details_activity_year_hint">What year was the team created</string>
+    <string name="create_teams_details_activity_button_text">Next</string>
+
+    <string name="create_teams_details_name_validation">Invalid team name</string>
+    <string name="create_teams_details_nick_validation">Invalid nickname</string>
+    <string name="create_teams_details_desc_validation">Invalid description</string>
+    <string name="create_teams_details_year_validation">Invalid year</string>
+
+    <!-- ENTER ADDRESS ACTIVITY -->
+    <string name="enter_address_activity_title">Where Do You Play?</string>
+    <string name="enter_address_activity_address_text">Address:</string>
+    <string name="enter_address_activity_address_hint">Enter the address of where you play</string>
+    <string name="enter_address_activity_town_text">Town:</string>
+    <string name="enter_address_activity_town_hint">Enter the town of where you play</string>
+    <string name="enter_address_activity_post_code_text">Postcode:</string>
+    <string name="enter_address_activity_post_code_hint">Enter the postcode of where you play</string>
+    <string name="enter_address_activity_special_text">Special Instructions?:</string>
+    <string name="enter_address_activity_special_text_extra">For example, if the other team should enter
+        through a particular entrance, or you have specific driving instructions for hard-to-locate pitches,
+        they should be entered here to let other teams know.</string>
+    <string name="enter_address_activity_special_hint">Any additional instructions</string>
+    <string name="enter_address_activity_button_text">Finish</string>
+    <string name="enter_address_activity_team_create_success">Team created successfully</string>
+
+    <!-- CREATE COMPETITION DETAILS ACTIVITY -->
+    <string name="create_comp_details_activity_name_tournament_text">Tournament Name:</string>
+    <string name="create_comp_details_activity_name_league_text">League Name:</string>
+    <string name="create_comp_details_activity_name_tournament_hint">Enter the tournament\'s name</string>
+    <string name="create_comp_details_activity_name_league_hint">Enter the league\'s name</string>
+    <string name="create_comp_details_activity_desc_text">Description:</string>
+    <string name="create_comp_details_activity_desc_edit">Enter a description</string>
+    <string name="create_comp_details_activity_button_text">Finish</string>
+    <string name="create_comp_details_activity_create_success">Competition created successfully</string>
+
+    <!-- VIEW TEAM ACTIVITY -->
+    <string name="view_team_activity_fixtures_tab_text">Fixtures</string>
+    <string name="view_team_activity_history_tab_text">History</string>
+    <string name="view_team_activity_statistics_tab_text">Statistics</string>
+    <string name="view_team_activity_upcoming_fixtures_text">Upcoming Fixtures</string>
+    <string name="view_team_activity_add_users_button">Add A User</string>
+    <string name="view_team_activity_user_add_success">User added successfully</string>
+
+    <!-- FIND USERS ACTIVITY -->
+    <string name="find_users_activity_search_hint">Search for a user to add</string>
+    <string name="user_list_item_button_text">Add</string>
+
+    <!-- VIEW OTHER TEAM ACTIVITY -->
+
+    <string name="view_team_activity_all_upcoming_text">View All Upcoming Fixtures</string>
+    <string name="view_team_activity_all_seasons_text">View Seasons</string>
+
+    <!-- VIEW GAME ACTIVITY -->
+    <string name="view_game_activity_title">Game Details</string>
+    <string name="view_game_take_me_there_button">Take Me There</string>
+
+    <!-- VIEW COMPETITION ACTIVITY -->
+    <string name="view_comp_activity_season_heading">Your Seasons:</string>
+    <string name="view_comp_activity_tournament_heading">Your Tournaments:</string>
+    <string name="view_comp_activity_create_season_button">Create a new season</string>
+    <string name="view_comp_activity_create_tournament_button">Create a new tournament</string>
+    <string name="view_comp_activity_table_team_name">Team</string>
+    <string name="view_comp_activity_table_games_played">P</string>
+    <string name="view_comp_activity_table_games_won">W</string>
+    <string name="view_comp_activity_table_games_lost">L</string>
+    <string name="view_comp_activity_table_games_drawn">D</string>
+    <string name="view_comp_activity_table_team_points">Points</string>
+
+    <!-- CREATE SEASON ACTIVITY -->
+    <string name="create_season_activity_title">Create a new season</string>
+    <string name="create_season_activity_name_text">Season Name:</string>
+    <string name="create_season_activity_tournament_text">Tournament Name:</string>
+    <string name="create_season_activity_name_hint">e.g. "2019–2020 Season"</string>
+    <string name="create_season_activity_desc_text">Description:</string>
+    <string name="create_season_activity_desc_hint">Enter a description:</string>
+    <string name="create_season_activity_participants_text">Participants:</string>
+    <string name="create_season_activity_button_text">Finish</string>
+    <string name="create_season_activity_create_success">Season created successfully</string>
+
+    <!-- VIEW SEASON ACTIVITY -->
+    <string name="view_season_activity_search_hint">Search for a team</string>
+    <string name="view_season_activity_title">Season Information</string>
+    <string name="view_season_add_team_button">Add A Team</string>
+    <string name="view_season_start_season_button">Start Season</string>
+    <string name="view_season_activity_generate_fixtures_button">Auto-Generate Fixtures</string>
+    <string name="view_season_activity_view_fixtures_button">View All Fixtures</string>
+    <string name="view_season_activity_add_score_button">Enter A Score</string>
+    <string name="view_season_activity_season_active_text">The season is now active</string>
+    <string name="view_season_activity_start_next_round_button">Start Next Round</string>
+    <string name="view_season_activity_team_add_success">Team added successfully</string>
+
+    <!-- FIND TEAM ACTIVITY -->
+    <string name="find_team_activity_heading">Search For A Team:</string>
+    <string name="find_team_activity_success">You have now joined this team</string>
+
+    <!-- GENERATE FIXTURES ACTIVITY -->
+    <string name="generate_fixtures_activity_number_games_text">How many times do each team play each other?:</string>
+    <string-array name="generate_fixtures_activity_number_of_fixtures_spinner">
+        <item>Once</item>
+        <item>Twice</item>
+    </string-array>
+    <string name="generate_fixtures_activity_frequency_text">How often do they play each other?:</string>
+    <string-array name="generate_fixtures_activity_frequency_spinner">
+        <item>Every week</item>
+        <item>Every 2 weeks</item>
+    </string-array>
+    <string name="generate_fixtures_activity_season_start_text">When does the season start?:</string>
+    <string name="generate_fixtures_activity_date_button_text">Select Date</string>
+    <string name="generate_fixtures_activity_game_start_text">Set a default game time:</string>
+    <string name="generate_fixtures_activity_time_button_text">Select Time</string>
+    <string name="generate_fixtures_activity_submit_button_text">Finish</string>
+    <string name="generate_fixtures_activity_success">Fixtures generated successfully</string>
+
+    <!-- CHOOSE GAME WEEK ACTIVITY -->
+    <string name="choose_game_week_activity_heading_text">Choose A Game Week:</string>
+
+    <!-- ADD TENNIS SCORE ACTIVITY -->
+    <string name="add_tennis_score_activity_num_sets_text">How many sets?:</string>
+    <string-array name="add_tennis_score_num_sets_spinner">
+        <item>Two</item>
+        <item>Three</item>
+        <item>Four</item>
+        <item>Five</item>
+    </string-array>
+    <string name="add_tennis_score_confirm_num_button">Confirm Sets?</string>
+    <string name="add_tennis_score_finish_button">Submit Scores</string>
+
+    <!-- ADD [SPORT] SCORE ACTIVITY -->
+    <string name="add_score_heading">Enter the score:</string>
+    <string name="add_time_heading">Enter the times:</string>
+    <string name="add_score_finish_button">Submit Scores</string>
+
+    <!-- HOME ACTIVITY -->
+    <string name="title_activity_home">HomeActivity</string>
+
+</resources>
